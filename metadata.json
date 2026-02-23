@@ -1,0 +1,5 @@
+{
+  "name": "AI Developer Portfolio",
+  "description": "A minimal personal portfolio website for an AI Developer, built with Next.js App Router and Tailwind CSS.",
+  "requestFramePermissions": []
+}
