@@ -117,7 +117,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
       <footer className="w-full max-w-3xl mx-auto px-6 py-8 mt-auto">
         <div className="flex items-center justify-between border-t border-zinc-200 pt-8">
           <p className="text-sm text-zinc-500">
-            © {new Date().getFullYear()} Alex.
+            © {new Date().getFullYear()} Pol Cayuela.
           </p>
           <Link href="/" className="text-sm font-medium text-zinc-500 hover:text-zinc-900 transition-colors">
             Home

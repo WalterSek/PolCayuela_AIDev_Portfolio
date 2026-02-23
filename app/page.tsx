@@ -13,7 +13,7 @@ export default function Home() {
       <header className="w-full max-w-5xl mx-auto px-6 py-16 md:py-24">
         <div className="max-w-3xl">
           <h1 className="font-display text-4xl md:text-6xl font-bold tracking-tight text-zinc-900 mb-6">
-            Hi, I&apos;m Alex. <br className="hidden md:block" />
+            Hi, I&apos;m Pol Cayuela. <br className="hidden md:block" />
             <span className="text-zinc-500">AI Product Engineer.</span>
           </h1>
           <p className="text-lg md:text-xl text-zinc-600 mb-8 leading-relaxed">
@@ -105,7 +105,7 @@ export default function Home() {
       <footer className="w-full max-w-5xl mx-auto px-6 py-8 border-t border-zinc-200 mt-12">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-zinc-500">
-            © {new Date().getFullYear()} Alex. All rights reserved.
+            © {new Date().getFullYear()} Pol Cayuela. All rights reserved.
           </p>
           <div className="flex items-center gap-6 text-sm font-medium text-zinc-500">
             <a href="https://github.com" className="hover:text-zinc-900 transition-colors">GitHub</a>
