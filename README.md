@@ -1,15 +1,15 @@
 <div align="center">
   <h1>Pol Cayuela</h1>
-  <h3>AI Product Engineer</h3>
+  <h3>AI Product Developer</h3>
   <p>
-    I’m a self‑taught full‑stack developer from Catalonia, Spain, specializing in AI integration.
+    I’m a self‑taught full‑stack developer from Barcelona, Spain, specializing in AI integration.
     I build production‑ready applications using React, TypeScript, and the Gemini API.
   </p>
 </div>
 
 <div align="center">
 
-[![LIVE DEMO →](https://img.shields.io/badge/LIVE%20DEMO-%E2%86%92-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio.vercel.app)
+[![LIVE DEMO →](https://img.shields.io/badge/LIVE%20DEMO-%E2%86%92-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://pol-cayuela-ai-dev-portfolio.vercel.app)
 
 </div>
 
@@ -29,7 +29,7 @@
 ## Selected Projects
 <p><sub>Recent work in AI and software engineering</sub></p>
 
-- <strong>CookShelf</strong> — AI‑Powered Cooking Companion  
+- <strong>CulinarIA</strong> — AI‑Powered Cooking Companion  
   Bridges the gap between discovering a recipe and cooking it with on‑device UX and AI prompts.
   <br />
   <sub>
@@ -38,7 +38,7 @@
     <img alt="Node.js" src="https://img.shields.io/badge/Node.js-1F2937?logo=node.js&logoColor=white&labelColor=1F2937">
   </sub>
   <br />
-  <a href="https://your-portfolio.vercel.app">↗ App</a>
+  <a href="https://play.google.com/apps/internaltest/4701633744859965772">↗ App</a>
   <br />
   <br />
 
@@ -51,7 +51,7 @@
     <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1F2937?logo=typescript&logoColor=white&labelColor=1F2937">
   </sub>
   <br />
-  <a href="https://your-portfolio.vercel.app">↗ Demo</a>
+  <a href="https://the-visual-engine.vercel.app">↗ Demo</a>
   <br />
   <br />
 
@@ -64,7 +64,7 @@
     <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1F2937?logo=typescript&logoColor=white&labelColor=1F2937">
   </sub>
   <br />
-  <a href="https://your-portfolio.vercel.app">↗ Demo</a>
+  <a href="https://pxlmorph.vercel.app">↗ Demo</a>
   <br />
   <br />
 
@@ -77,7 +77,7 @@
     <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1F2937?logo=typescript&logoColor=white&labelColor=1F2937">
   </sub>
   <br />
-  <a href="https://your-portfolio.vercel.app">↗ Demo</a>
+  <a href="https://crypto-dashboard-ten-phi.vercel.app">↗ Demo</a>
   <br />
   <br />
 
@@ -85,7 +85,7 @@
 
 ## Quick Links
 
-- Live demo on Vercel: <a href="https://your-portfolio.vercel.app">https://your-portfolio.vercel.app</a>
+- Live demo on Vercel: <a href="https://pol-cayuela-ai-dev-portfolio.vercel.app">Portfolio Live Demo</a>
 - Issues & feedback: use the repository Issues tab
 - Contact: <a href="mailto:pcayuelarull@gmail.com">email me</a>
 
@@ -95,4 +95,5 @@
 
 This repository serves as a landing page on GitHub.  
 For the full interactive portfolio, visit the Vercel live demo above.
+
 
