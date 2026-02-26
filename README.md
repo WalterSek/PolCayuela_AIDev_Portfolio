@@ -13,13 +13,13 @@
   <p>
     <a href="https://github.com/polcayuela">
       <img alt="GitHub" src="https://img.shields.io/badge/GitHub-18181B?logo=github&logoColor=white" />
-    </a>&nbsp;&nbsp;•&nbsp;&nbsp;
+    </a>&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://www.linkedin.com/in/polcayuela">
       <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white" />
-    </a>&nbsp;&nbsp;•&nbsp;&nbsp;
+    </a>&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="mailto:pcayuelarull@gmail.com">
       <img alt="Email" src="https://img.shields.io/badge/Email-1F2937?logo=gmail&logoColor=white" />
-    </a>&nbsp;&nbsp;•&nbsp;&nbsp;
+    </a>&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://example.com/cv.pdf">
       <img alt="Download CV" src="https://img.shields.io/badge/Download%20CV-6E57E0" />
     </a>
@@ -40,7 +40,7 @@
     <img alt="Node.js" src="https://img.shields.io/badge/Node.js-1F2937?logo=node.js&logoColor=white&labelColor=1F2937">
   </sub>
   <br />
-  <a href="#">App</a>
+  <a href="#">↗ App</a>
   <br />
   <br />
 
@@ -53,7 +53,7 @@
     <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1F2937?logo=typescript&logoColor=white&labelColor=1F2937">
   </sub>
   <br />
-  <a href="#">Demo</a>
+  <a href="#">↗ Demo</a>
   <br />
   <br />
 
@@ -66,7 +66,7 @@
     <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1F2937?logo=typescript&logoColor=white&labelColor=1F2937">
   </sub>
   <br />
-  <a href="#">Demo</a>
+  <a href="#">↗ Demo</a>
   <br />
   <br />
 
@@ -79,7 +79,7 @@
     <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1F2937?logo=typescript&logoColor=white&labelColor=1F2937">
   </sub>
   <br />
-  <a href="#">Demo</a>
+  <a href="#">↗ Demo</a>
   <br />
   <br />
 
@@ -97,4 +97,5 @@
 
 This repository serves as a landing page on GitHub.  
 For the full interactive portfolio, visit the Vercel live demo above.
+
 
