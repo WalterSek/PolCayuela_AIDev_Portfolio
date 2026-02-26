@@ -5,11 +5,12 @@
     I’m a self‑taught full‑stack developer from Barcelona, Spain, specializing in AI integration.
     I build production‑ready applications using React, TypeScript, and the Gemini API.
   </p>
-  <p>
-    <a href="https://your-portfolio.vercel.app">
-      <img alt="Live Demo on Vercel" src="https://img.shields.io/badge/Live%20Demo-Vercel-black?logo=vercel&logoColor=white" />
-    </a>
-  </p>
+</div>
+
+<div align="center">
+
+[![LIVE DEMO →](https://img.shields.io/badge/LIVE%20DEMO-%E2%86%92-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio.vercel.app)
+
 </div>
 
 <div align="center">
