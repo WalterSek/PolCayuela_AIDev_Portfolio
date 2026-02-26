@@ -1,20 +1,98 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <h1>Pol Cayuela</h1>
+  <h3>AI Product Engineer</h3>
+  <p>
+    I’m a self‑taught full‑stack developer from Catalonia, Spain, specializing in AI integration.
+    I build production‑ready applications using React, TypeScript, and the Gemini API.
+  </p>
 </div>
 
-# Run and deploy your AI Studio app
+<div align="center">
 
-This contains everything you need to run your app locally.
+[![LIVE DEMO →](https://img.shields.io/badge/LIVE%20DEMO-%E2%86%92-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio.vercel.app)
 
-View your app in AI Studio: https://ai.studio/apps/73bc0d85-8703-4a13-8a16-9af8fe09abba
+</div>
 
-## Run Locally
+<br />
 
-**Prerequisites:**  Node.js
+---
 
+<div align="center">
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+| [![GitHub](https://img.shields.io/badge/GitHub-18181B?logo=github&logoColor=white)](https://github.com/polcayuela) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/polcayuela) | [![Email](https://img.shields.io/badge/Email-1F2937?logo=gmail&logoColor=white)](mailto:pcayuelarull@gmail.com) | [![Download CV](https://img.shields.io/badge/Download%20CV-6E57E0)](https://example.com/cv.pdf) |
+| --- | --- | --- | --- |
+
+</div>
+
+---
+
+## Selected Projects
+<p><sub>Recent work in AI and software engineering</sub></p>
+
+- <strong>CookShelf</strong> — AI‑Powered Cooking Companion  
+  Bridges the gap between discovering a recipe and cooking it with on‑device UX and AI prompts.
+  <br />
+  <sub>
+    <img alt="React Native" src="https://img.shields.io/badge/React%20Native-121212?logo=react&logoColor=61DAFB&labelColor=121212"> 
+    <img alt="Expo" src="https://img.shields.io/badge/Expo-1B1F23?logo=expo&logoColor=white&labelColor=1B1F23"> 
+    <img alt="Node.js" src="https://img.shields.io/badge/Node.js-1F2937?logo=node.js&logoColor=white&labelColor=1F2937">
+  </sub>
+  <br />
+  <a href="https://your-portfolio.vercel.app">↗ App</a>
+  <br />
+  <br />
+
+- <strong>InfiniteVisuals</strong> — AI Brand Content Engine  
+  Generates brand‑consistent, high‑quality visuals at scale.
+  <br />
+  <sub>
+    <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&labelColor=000000">
+    <img alt="Supabase" src="https://img.shields.io/badge/Supabase-18181B?logo=supabase&logoColor=3ECF8E&labelColor=18181B">
+    <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1F2937?logo=typescript&logoColor=white&labelColor=1F2937">
+  </sub>
+  <br />
+  <a href="https://your-portfolio.vercel.app">↗ Demo</a>
+  <br />
+  <br />
+
+- <strong>PxiMorph</strong> — AI Style Transfer & Editor  
+  Transform images into more than 50 artistic styles with a clean editing flow.
+  <br />
+  <sub>
+    <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&labelColor=000000">
+    <img alt="React" src="https://img.shields.io/badge/React-1B1F23?logo=react&logoColor=61DAFB&labelColor=1B1F23">
+    <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1F2937?logo=typescript&logoColor=white&labelColor=1F2937">
+  </sub>
+  <br />
+  <a href="https://your-portfolio.vercel.app">↗ Demo</a>
+  <br />
+  <br />
+
+- <strong>CryptoEdge Insights</strong> — TA‑Driven Crypto Analytics  
+  Advanced technical analysis platform to spot opportunities.
+  <br />
+  <sub>
+    <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&labelColor=000000">
+    <img alt="Supabase" src="https://img.shields.io/badge/Supabase-18181B?logo=supabase&logoColor=3ECF8E&labelColor=18181B">
+    <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1F2937?logo=typescript&logoColor=white&labelColor=1F2937">
+  </sub>
+  <br />
+  <a href="https://your-portfolio.vercel.app">↗ Demo</a>
+  <br />
+  <br />
+
+---
+
+## Quick Links
+
+- Live demo on Vercel: <a href="https://your-portfolio.vercel.app">https://your-portfolio.vercel.app</a>
+- Issues & feedback: use the repository Issues tab
+- Contact: <a href="mailto:pcayuelarull@gmail.com">email me</a>
+
+---
+
+### About This Repo
+
+This repository serves as a landing page on GitHub.  
+For the full interactive portfolio, visit the Vercel live demo above.
+
