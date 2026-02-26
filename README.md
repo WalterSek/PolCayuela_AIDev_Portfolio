@@ -1,8 +1,8 @@
 <div align="center">
   <h1>Pol Cayuela</h1>
-  <h3>AI Product Developer</h3>
+  <h3>AI Product Engineer</h3>
   <p>
-    I’m a self‑taught full‑stack developer from Barcelona, Spain, specializing in AI integration.
+    I’m a self‑taught full‑stack developer from Catalonia, Spain, specializing in AI integration.
     I build production‑ready applications using React, TypeScript, and the Gemini API.
   </p>
 </div>
@@ -12,6 +12,10 @@
 [![LIVE DEMO →](https://img.shields.io/badge/LIVE%20DEMO-%E2%86%92-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio.vercel.app)
 
 </div>
+
+<br />
+
+---
 
 <div align="center">
 
@@ -91,5 +95,6 @@
 
 This repository serves as a landing page on GitHub.  
 For the full interactive portfolio, visit the Vercel live demo above.
+
 
 
