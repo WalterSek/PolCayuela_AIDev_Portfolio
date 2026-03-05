@@ -15,12 +15,13 @@ export interface Project {
   };
   status?: "Production" | "Prototype" | "WIP";
   featured?: boolean;
+  imageUrl?: string;
 }
 
 export const projects: Project[] = [
   {
-    slug: "cookshelf",
-    name: "CookShelf",
+    slug: "culinaria",
+    name: "CulinarIA",
     tagline: "AI-Powered Cooking Companion",
     description: "A mobile app that bridges the gap between discovering a recipe and actually cooking it. Built with React Native and Google Gemini's multimodal ecosystem, it extracts recipes from URLs or images, manages your pantry, and offers a hands-free voice assistant.",
     content: `## Problem Statement
@@ -32,15 +33,15 @@ Cooking content creators and enthusiasts face daily friction: they discover reci
 - Generic recipe apps: Can't import from video descriptions or social posts
 - Notes apps: Unstructured, not searchable, no hands-free mode
 
-CookShelf bridges the gap between discovering a recipe and actually cooking it.
+CulinarIA bridges the gap between discovering a recipe and actually cooking it.
 
 ---
 
 ## Solution Overview
 
-CookShelf is your AI-powered cooking companion built with **Google Gemini's multimodal ecosystem** and **React Native**.
+CulinarIA is your AI-powered cooking companion built with **Google Gemini's multimodal ecosystem** and **React Native**.
 
-| Audience Problem | CookShelf Solution |
+| Audience Problem | CulinarIA Solution |
 |---|---|
 | Can't save recipes from creator URLs | Paste any URL — Gemini extracts the recipe instantly |
 | Physical cookbooks can't be searched | Scan any page with camera — Gemini Vision structures it |
@@ -194,6 +195,7 @@ CookShelf is your AI-powered cooking companion built with **Google Gemini's mult
     links: {
       playStore: "https://play.google.com/apps/internaltest/4701633744859965772"
     },
+    imageUrl: "/culinaria-cover.jpg",
     status: "Production",
     featured: true
   },
@@ -210,6 +212,7 @@ CookShelf is your AI-powered cooking companion built with **Google Gemini's mult
     links: {
       demo: "https://the-visual-engine.vercel.app/"
     },
+    imageUrl: "/infinitevisuals-cover.jpg",
     status: "WIP",
     featured: true
   },
@@ -226,6 +229,7 @@ CookShelf is your AI-powered cooking companion built with **Google Gemini's mult
     links: {
       demo: "https://crypto-dashboard-ten-phi.vercel.app"
     },
+    imageUrl: "/cryptoedge-cover.jpg",
     status: "WIP",
     featured: false
   },
@@ -281,6 +285,7 @@ PxlMorph supports 50+ artistic styles across multiple categories. Each style inc
     links: {
       demo: "https://pxlmorph.vercel.app"
     },
+    imageUrl: "https://picsum.photos/seed/pxlmorph/800/450",
     status: "Production",
     featured: true
   }

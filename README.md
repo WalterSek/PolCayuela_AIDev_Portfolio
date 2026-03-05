@@ -29,7 +29,7 @@
 ## Selected Projects
 <p><sub>Recent work in AI and software engineering</sub></p>
 
-- <strong>CulinarIA</strong> — AI‑Powered Cooking Companion  
+- <strong>Culinaria</strong> — AI‑Powered Cooking Companion  
   Bridges the gap between discovering a recipe and cooking it with on‑device UX and AI prompts.
   <br />
   <sub>
@@ -95,5 +95,4 @@
 
 This repository serves as a landing page on GitHub.  
 For the full interactive portfolio, visit the Vercel live demo above.
-
 

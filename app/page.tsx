@@ -1,7 +1,8 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Github, Linkedin, Mail, FileText, ExternalLink, Code2, PlayCircle, Smartphone } from 'lucide-react';
 import { projects } from '@/data/projects';
-import { FadeIn, StaggerContainer, StaggerItem, HoverCard } from '@/components/animations';
+import { FadeIn, StaggerContainer, StaggerItem } from '@/components/animations';
 import { ContactTrigger } from '@/components/contact';
 
 export default function Home() {
@@ -52,8 +53,21 @@ export default function Home() {
         <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {sortedProjects.map((project) => (
             <StaggerItem key={project.slug} className="h-full">
-              <HoverCard className="h-full">
-                <Link href={`/projects/${project.slug}`} className="group flex flex-col bg-white rounded-2xl border border-zinc-200 overflow-hidden hover:shadow-md transition-all duration-200 hover:border-zinc-300 h-full">
+              <Link 
+                href={`/projects/${project.slug}`} 
+                className="group flex flex-col bg-white rounded-2xl border border-zinc-200 overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-300 hover:border-zinc-300 h-full shadow-sm"
+              >
+                {project.imageUrl && (
+                    <div className="relative aspect-video w-full overflow-hidden border-b border-zinc-100">
+                      <Image
+                        src={project.imageUrl}
+                        alt={project.name}
+                        fill
+                        className="object-cover"
+                        referrerPolicy="no-referrer"
+                      />
+                    </div>
+                  )}
                   <div className="p-6 flex-1 flex flex-col">
                     <div className="flex items-start justify-between mb-4">
                       <h3 className="font-display text-xl font-bold text-zinc-900 group-hover:text-zinc-700 transition-colors">
@@ -107,7 +121,6 @@ export default function Home() {
                     </div>
                   </div>
                 </Link>
-              </HoverCard>
             </StaggerItem>
           ))}
         </StaggerContainer>
