@@ -1,4 +1,4 @@
-import Link from 'next/link';
+lopeimport Link from 'next/link';
 import Image from 'next/image';
 import { Github, Linkedin, Mail, FileText, ExternalLink, Code2, PlayCircle, Smartphone } from 'lucide-react';
 import { projects } from '@/data/projects';
@@ -14,16 +14,30 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
       <header className="w-full max-w-5xl mx-auto px-6 pt-16 pb-8 md:pt-24 md:pb-12">
-        <FadeIn className="max-w-3xl">
-          <h1 className="font-display text-4xl md:text-6xl font-bold tracking-tight text-zinc-900 mb-6">
-            Hi, I&apos;m Pol Cayuela. <br className="hidden md:block" />
-            <span className="text-zinc-500">AI Product Engineer.</span>
-          </h1>
-          <p className="text-lg md:text-xl text-zinc-600 mb-8 leading-relaxed">
-            I&apos;m a self-taught full-stack developer from Catalonia, Spain, specializing in AI integration. 
-            I build production-ready applications using React, TypeScript, and the Gemini API.
-          </p>
-          <div className="flex flex-wrap gap-4">
+        <FadeIn className="max-w-4xl">
+          <div className="flex flex-col md:flex-row gap-8 items-start md:items-center mb-8">
+            <div className="relative w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden border-4 border-white shadow-lg shrink-0 bg-zinc-100">
+              <Image
+                src="https://ui-avatars.com/api/?name=Pol+Cayuela&background=0D8ABC&color=fff&size=256"
+                alt="Pol Cayuela"
+                fill
+                className="object-cover"
+                referrerPolicy="no-referrer"
+              />
+            </div>
+            <div>
+              <h1 className="font-display text-4xl md:text-6xl font-bold tracking-tight text-zinc-900 mb-4">
+                Hi, I&apos;m Pol Cayuela. <br className="hidden md:block" />
+                <span className="text-zinc-500">AI Product Developer.</span>
+              </h1>
+              <p className="text-lg md:text-xl text-zinc-600 leading-relaxed max-w-2xl">
+                Full-stack developer from Barcelona with a deep focus on AI integration. 
+                I craft production-ready, intelligent applications by leveraging modern AI workflows to build scalable, end-to-end solutions.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-wrap gap-4 mb-12">
             <a href="https://github.com/waltersek" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 bg-zinc-900 text-white rounded-lg hover:bg-zinc-800 transition-colors text-sm font-medium">
               <Github className="w-4 h-4" />
               GitHub
@@ -40,6 +54,17 @@ export default function Home() {
               <FileText className="w-4 h-4" />
               Download CV
             </a>
+          </div>
+
+          <div className="pt-8 border-t border-zinc-200">
+            <p className="text-sm font-medium text-zinc-500 mb-4 uppercase tracking-wider">Core Technologies</p>
+            <div className="flex flex-wrap gap-2">
+              {['TypeScript', 'JavaScript', 'Python', 'React', 'Next.js', 'React Native', 'Node.js', 'Tailwind CSS', 'Zustand', 'TanStack Query', 'Supabase', 'Cloudflare', 'Vercel', 'Google Cloud', 'LLM Integration', 'Agentic AI', 'AI Automations', 'Git'].map(skill => (
+                <span key={skill} className="px-4 py-2 bg-white border border-zinc-200 rounded-full text-sm font-medium text-zinc-700 shadow-sm hover:border-zinc-300 hover:shadow-md transition-all cursor-default">
+                  {skill}
+                </span>
+              ))}
+            </div>
           </div>
         </FadeIn>
       </header>

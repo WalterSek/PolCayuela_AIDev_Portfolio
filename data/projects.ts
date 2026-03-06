@@ -13,7 +13,7 @@ export interface Project {
     video?: string;
     playStore?: string;
   };
-  status?: "Production" | "Prototype" | "WIP" | "Launch Soon";
+  status?: "Production" | "Prototype" | "Beta" | "Launch Soon";
   featured?: boolean;
   imageUrl?: string;
 }
@@ -213,7 +213,7 @@ CulinarIA is your AI-powered cooking companion built with **Google Gemini's mult
       demo: "https://the-visual-engine.vercel.app/"
     },
     imageUrl: "/infinitevisuals-cover.jpg",
-    status: "WIP",
+    status: "Beta",
     featured: true
   },
   {
@@ -230,7 +230,7 @@ CulinarIA is your AI-powered cooking companion built with **Google Gemini's mult
       demo: "https://crypto-dashboard-ten-phi.vercel.app"
     },
     imageUrl: "/cryptoedge-cover.jpg",
-    status: "WIP",
+    status: "Beta",
     featured: false
   },
   {
@@ -286,7 +286,7 @@ PxlMorph supports 50+ artistic styles across multiple categories. Each style inc
       demo: "https://pxlmorph.vercel.app"
     },
     imageUrl: "/pxlmorph-cover.jpg",
-    status: "WIP",
+    status: "Beta",
     featured: true
   }
 ];
