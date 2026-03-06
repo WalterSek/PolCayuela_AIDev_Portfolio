@@ -67,6 +67,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                 className="object-cover"
                 priority
                 referrerPolicy="no-referrer"
+                unoptimized
               />
             </div>
           )}

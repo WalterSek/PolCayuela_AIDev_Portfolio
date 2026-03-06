@@ -79,6 +79,7 @@ export default function Home() {
                         fill
                         className="object-cover"
                         referrerPolicy="no-referrer"
+                        unoptimized
                       />
                     </div>
                   )}
